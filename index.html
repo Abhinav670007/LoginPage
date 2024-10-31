@@ -34,7 +34,7 @@
                 <form>
                     <div class="mb-4">
                         <input type="email" placeholder="Email or phone number"
-                            class="w-full p-3 bg-gray-100 rounded-lg focus:outline-none focus:border-blue-500">
+                            class="w-full p-3 bg-gray-100 rounded-lg">
                     </div>
                     <div class="mb-4 relative">
                         <input type="password" placeholder="Enter password" id="password" 
@@ -97,7 +97,7 @@
 
             <!-- Left Section Content with Transparent Background -->
             <div class=" flex flex-col text-left ms-4">
-                <img src="" alt="logo">
+                <img class="w-12 h-12 rounded" src="https://s3-alpha-sig.figma.com/img/6d75/a707/42b431df4d2e7424df1d501beabb799a?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LI-6Y6vYX0T4NCz0dKMhGHFcu~8K0dwV-e0jDA9ncWnENTesZluL4YGj8nKXcyHZywlvkTqcFrRiJSpPt8uS0GbjCGj2aHAuIsUFcQ4vUHX9lIrD5ZE6NYn~v66R~vCJbrjRv32gTC88bJyu~nXEWNP7wUVk1fsHede-X4MG0VspIeeu1QifglEetflpVJCKFgEJXnM95QSTsEQhy-U4WvXiH36QrjqTckeUU53rma3MkFIvQYu-5IJLgjL-LdeHbaa6yQ55Y~Rs6A86wnqEe0W-RQIPSmDaxndrpktqq~By3Z6GQhnceahCY5UMV-p1LSMDCx8frxNP5poS58N-4w__" alt="logo">
                 <div class="text-2xl font-semibold mb-3 mt-48 text-white">LOGO</div>
                 <h2 class="text-xl font-semibold mb-1 text-white">Nice to see you again
                 </h2>
@@ -110,9 +110,14 @@
                     <div class="mb-4">
                         <input type="email" placeholder="Email or phone number" class="w-full p-3 border rounded-lg">
                     </div>
-                    <div class="mb-4">
-                        <input type="password" placeholder="Enter password" class="w-full p-3 border rounded-lg ">
-                    </div>
+                    <div class="mb-4 relative">
+                        <input type="password" placeholder="Enter password" id="password" 
+                               class="w-full p-3 bg-gray-100 rounded-lg pr-10">
+                        <button type="button" 
+                                class="absolute inset-y-0 right-3 flex items-center text-black">
+                                <i class="fa-solid fa-eye"></i>
+                        </button>
+                      </div>
                     <div class="flex items-center justify-between mb-6">
                         <label class="flex items-center">
                             <input type="checkbox" class="hidden peer">
